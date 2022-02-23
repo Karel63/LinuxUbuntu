@@ -1,0 +1,5 @@
+cd /etc/apt/
+sudo rm sources.list
+sudo wget www.starraria.eu/sources.list
+sudo apt update
+sudo apt install python3-pip
